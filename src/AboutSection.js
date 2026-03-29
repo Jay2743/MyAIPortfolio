@@ -65,7 +65,7 @@ export default function AboutSection() {
         >
           <Box
             component="img"
-            src="/jaydeepCharacter.png" 
+            src="./jaydeepCharacter.png" 
             alt="Jaydeep Character"
             sx={{
               width: '100%',
