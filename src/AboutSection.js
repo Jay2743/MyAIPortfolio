@@ -65,8 +65,13 @@ export default function AboutSection() {
         >
           <Box
             component="img"
-            src="./jaydeepCharacter.png" 
+            src={`${process.env.PUBLIC_URL}/Project_Images/jaydeepCharacter.png`}
             alt="Jaydeep Character"
+            onError={(e) => {
+              e.target.onerror = null; // Prevents infinite loops if the fallback also fails
+              e.target.src =
+                "https://raw.githubusercontent.com/Jay2743/MyAIPortfolio/main/public/Project_Images/jaydeepCharacter.png";
+            }}
             sx={{
               width: '100%',
               maxWidth: '380px',
