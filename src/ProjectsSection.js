@@ -10,7 +10,7 @@ const projects = [
     description: 'A high-performance, cinematic personal portfolio designed to showcase the intersection of backend engineering and visual storytelling. The application features a custom-built, interactive "About" section where a 2D Ghibli-style character utilizes the Web Speech API to provide an AI-powered audio introduction. The project focuses on smooth user experience with staggered animations, a professional loading screen, and a fully responsive grid-based design. It demonstrates advanced React concepts including hooks, custom themes, and integration with third-party animation libraries',
     tech: ['React.js', 'MUI', 'Framer Motion', 'AI Voice','Chatgpt','Gemini'],
     image: './Project_Images/Portfolio_Web.png',
-    link: '#'
+    link: 'https://github.com/Jay2743/MyAIPortfolio'
   },
   {
     title: 'McDiffyStore Springboot Application', 
