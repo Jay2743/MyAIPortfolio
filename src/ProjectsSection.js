@@ -33,7 +33,7 @@ const projects = [
     company: 'Personal Project',
     description: 'BuyHive is a full-stack e-commerce web application designed to provide a seamless online shopping experience. It features secure user authentication using JWT, where login sessions persist via token-based authorization. Users can search for products, view details, and add items to their cart for purchase. The application includes a robust backend built with Node.js and Express.js, handling APIs, authentication, and business logic efficiently. It also supports file uploads, making it extensible for product image management. The frontend is designed to be intuitive and responsive, ensuring smooth navigation and usability. This project demonstrates strong skills in REST API development, authentication, state management, and full-stack integration.', 
     tech: ['React Js', 'Express Js', 'JWT Authentication' , 'Node Js'], 
-    image: './Project_Images/BuyHive.png',
+    image: './Project_Images/Buyhive.png',
     link: 'https://github.com/Jay2743/BuyHive'
   }
 
